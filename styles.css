@@ -1,0 +1,92 @@
+
+.tab-group li a {
+  display: inline;
+  text-decoration: none;
+  font-size: x-small;
+  padding: 1em;
+  color: black;
+}
+
+
+.tab-group li a:hover, :active {
+  color: #c0c0c0;
+}
+
+.file-upload{
+  width: 100%;
+  background: grey !important;
+
+}
+
+.contained{
+  background: rgba(128, 128, 128, 0.103);
+}
+
+.container-fluid{
+  background: rgba(209, 209, 209, 0.151);
+}
+
+.heading-text{
+  font-family: 'Georama' sans-serif;
+  font-weight: 400;
+}
+
+.btn-file{
+  width: 100%;
+  height: 50px;
+  color: black;
+  border-radius: 5px;
+  border: dotted 2px;
+  font-family: 'Georama'sans-serif;
+  font-weight: 400;
+}
+
+.thin-text{
+  font-size: 1.2rem;
+  font-family: 'Georama' sans-serif;
+  font-weight: 100;
+}
+
+.keystore-password{
+  background: black !important;
+}
+
+.keystore-password > input[type=text]{
+  color: white;
+}
+
+.btn-submit{
+  outline: none !important;
+  border: none !important;
+  background: black;
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 7px;
+  border-radius: 3px;
+}
+
+.small-text{
+  font-family:'Georama' sans-serif;
+  font-size: 400;
+}
+
+.mnemonic-text-area{
+  background: black !important;
+}
+
+.b-number{
+  color: rgba(0, 196, 186, 0.973);
+}
+
+.tab-content > div:not(:first-child) {
+  display: none;
+}
+
+
+
+/* 
+.tab-group .active a {
+  background: dodgerblue;
+  color: #ffffff;
+} */
